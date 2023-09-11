@@ -44,6 +44,7 @@ async function submitForm() {
 
 <template>
     <div class="py-10 px-6">
+        <Header />
         <div class="max-w-sm mx-auto py-10 px-6 bg-gray-100 rounded-xl">
             <h1 class="mb-6 text-2xl">Log in</h1>
 
