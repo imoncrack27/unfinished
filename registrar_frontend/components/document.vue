@@ -1,4 +1,4 @@
-import { Title } from '../.nuxt/components';
+
 <script setup>
 import { useUserStore } from '@/stores/user';
 

@@ -1,18 +1,16 @@
 <script setup>
-import { onMounted } from 'vue'
-import { useUserStore } from '@/stores/user'
+import { onMounted } from "vue";
+import { useUserStore } from "@/stores/user";
 
-const userStore = useUserStore()
+const userStore = useUserStore();
 
 onMounted(() => {
-  userStore.initStore()
-})
+  userStore.initStore();
+});
 </script>
 
 <template>
   <div>
-    <NuxtLayout>
-      <NuxtPage />
-    </NuxtLayout>
+    <NuxtPage />
   </div>
 </template>

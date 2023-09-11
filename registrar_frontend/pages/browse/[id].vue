@@ -1,4 +1,4 @@
-import { Document } from '../../.nuxt/components';
+
 <script setup>
 const route = useRoute()
 
